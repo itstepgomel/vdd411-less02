@@ -1,0 +1,49 @@
+@import url("reset.css");
+@import url("normolaze.css");
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+a{
+    color: inherit;
+}
+
+p{
+    color: rgba(80, 100, 93, 0.5);
+    color:cadetblue;
+}
+
+.wrapper{
+    /* width: 850px; */
+    max-width: 850px;
+    color:chocolate;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 20px auto 50px auto;
+}
+
+img{
+    width: 100%;
+    height: 300px;
+}
+
+/* h1, h2, h3, h4, h5, h6{
+    font-size: 40px;
+} */
+.h_all{
+    font-size: 40px;
+}
+
+.text_red{
+    color: red;
+}
+
+.text_up{
+    text-transform: uppercase;
+}
